@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>NoStop - Gym and Fitness Template</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald&amp;family=Barlow:wght@300;400;500;600;700&amp;display=swap">
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <!-- Mouse cursor -->
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a class="logo" href="index.php"> <img src="img/logo.png" class="logo-img" alt=""> </a>
+                <!-- <a class="logo" href="index.php"> <h2>NO<span>STOP</span></h2> </a> -->
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon"><i class="ti-menu"></i></span>
+            </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="trainers.html">Diet Plans</a></li>
+                    <li class="nav-item"><a class="nav-link" href="trainers.html">Workouts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="trainers.html">Leaderboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header Banner -->
+    <section class="banner-header section-padding bg-img" data-overlay-dark="5" data-background="img/slider/1.jpg">
+        <div class="v-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Updated trainer info -->
+                        <h6 class="animate-box" data-animate-effect="fadeInUp">Senior Trainers</h6>
+                        <h1 class="animate-box" data-animate-effect="fadeInUp">Brijesh & Jaimin</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Trainer Single -->
+<section class="trainer-single section-padding">
+    <div class="container">
+        <div class="row">
+            <!-- Trainer Image & Contact -->
+            <div class="col-md-5">
+                <div class="trainer-img mb-30">
+                    <div class="img">
+                        <img src="img/team/Brijaix.jpg" class="img-fluid" alt="Brijesh & Jaimin" style="width:100%; height:300px; object-fit:cover;">
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="cont">
+                        <div class="coll">
+                            <div class="social-icon"> 
+                                <a href="index.php"><i class="ti-facebook"></i></a> 
+                                <a href="index.php"><i class="ti-twitter"></i></a> 
+                                <a href="index.php"><i class="ti-instagram"></i></a> 
+                                <a href="index.php"><i class="ti-pinterest"></i></a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <div class="coll">
+                            <p>Contact us at: <a href="mailto:brijeshjaimin@mywebsite.com">brijeshjaimin@mywebsite.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Trainer Description -->
+            <div class="col-md-6 offset-md-1 con">
+                <h6>Fitness Experts, Specialized in Personalized Diet & Strength Training</h6>
+                <ul class="list-unstyled list mb-60">
+                    <li>
+                        <div class="list-icon"> <span class="ti-check"></span> </div>
+                        <div class="list-text">
+                            <p>Certified Fitness Coaches</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list-icon"> <span class="ti-check"></span> </div>
+                        <div class="list-text">
+                            <p>Expert Diet & Nutrition Planning</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="list-icon"> <span class="ti-check"></span> </div>
+                        <div class="list-text">
+                            <p>Strength & Conditioning Specialists</p>
+                        </div>
+                    </li>
+                </ul>
+                <!-- Tabs -->
+                <ul class="nav nav-tabs simpl-bord mt-60" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation"> 
+                        <span class="nav-link active cursor-pointer" id="vision-tab" data-bs-toggle="tab" data-bs-target="#biography">Biography</span> 
+                    </li>
+                    <li class="nav-item" role="presentation"> 
+                        <span class="nav-link cursor-pointer" id="mission-tab" data-bs-toggle="tab" data-bs-target="#education">Education</span> 
+                    </li>
+                    <li class="nav-item" role="presentation"> 
+                        <span class="nav-link cursor-pointer" id="mission-tab" data-bs-toggle="tab" data-bs-target="#awards">Awards</span> 
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <!-- Biography Tab -->
+                    <div class="tab-pane fade show active" id="biography" role="tabpanel" aria-labelledby="vision-tab">
+                        <p>Brijesh & Jaimin have dedicated their careers to helping people achieve optimal health. Their combined passion for fitness, nutrition, and coaching has inspired countless individuals to transform their lifestyles and reach new heights in wellness.</p>
+                    </div>
+                    <!-- Education Tab -->
+                    <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="mission-tab">
+                        <p>Both hold multiple certifications in fitness, strength training, and sports nutrition. They continually expand their knowledge to stay updated with the latest research and techniques for sustainable health and performance.</p>
+                    </div>
+                    <!-- Awards Tab -->
+                    <div class="tab-pane fade" id="awards" role="tabpanel" aria-labelledby="mission-tab">
+                        <p>Brijesh & Jaimin have been recognized for their innovative coaching methods, receiving awards at national fitness conventions and being featured in various health and wellness publications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Video -->
+    <section class="video-wrapper video section-padding bg-img bg-fixed" data-overlay-dark="4" data-background="img/slider/10.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mb-30">
+                    <div class="section-title3">Be Inspired</div>
+                    <div class="section-title">Explore Life <span>Gym</span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-center col-md-12">
+                    <a class="vid" href="https://youtu.be/pJsWKy9y1Cg">
+                        <div class="vid-butn"> 
+                            <span class="icon">
+                                <i class="ti-control-play"></i>
+                            </span> 
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Trainers (Now we show only 2: Brijesh & Jaimin) -->
+<section class="trainers section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-30 text-center">
+                <div class="section-title3">Our Coaches</div>
+                <div class="section-title">Meet <span>The Team</span></div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Brijesh -->
+            <div class="col-md-6">
+                <div class="trainer mb-15">
+                    <div class="team-img">
+                        <img src="img/team/1.jpg" alt="Brijesh" class="img-fluid" style="height:600px; object-fit:cover; width:100%;" />
+                    </div>
+                    <div class="con text-center">
+                        <h5 class="mb-0"><a href="trainer-single.html">Brijesh</a></h5>
+                        <div class="arrow">
+                            <a href="trainer-single.html"><span class="ti-angle-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Jaimin -->
+            <div class="col-md-6">
+                <div class="trainer mb-15">
+                    <div class="team-img">
+                        <img src="img/team/2.jpg" alt="Jaimin" class="img-fluid" style="height:600px; object-fit:cover; width:100%;" />
+                    </div>
+                    <div class="con text-center">
+                        <h5 class="mb-0"><a href="trainer-single.html">Jaimin</a></h5>
+                        <div class="arrow">
+                            <a href="trainer-single.html"><span class="ti-angle-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Only two trainers are displayed; slider functionality has been removed for now -->
+        </div>
+    </div>
+</section>
+
+    <!-- Footer (snippet from your instructions) -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <!-- Fitness Challenges Section -->
+                    <div class="col-md-4">
+                        <div class="wrap">
+                            <h4>Fitness Challenges</h4>
+                            <p>Join our <strong>weekly & monthly challenges</strong> to push your limits and compete with the best. Track your progress, win rewards, and stay motivated!</p>
+                            <a href="challenges.html" class="btn-1 button-1">Join a Challenge</a>
+                        </div>
+                    </div>
+
+                    <!-- Workout of the Day (WOD) Section -->
+                    <div class="col-md-4">
+                        <div class="wrap">
+                            <h4>Workout of the Day</h4>
+                            <p id="wodText">Check out today's featured workout and take your fitness to the next level!</p>
+                            <a href="workouts.html" class="btn-1 button-1">See More Workouts</a>
+                        </div>
+                    </div>
+
+                    <!-- Top Performers Section -->
+                    <div class="col-md-4">
+                        <div class="wrap">
+                            <h4>Top Performers</h4>
+                            <p>Check out the <strong>leaderboard</strong> and see who's achieving their fitness goals! Are you ready to be the next champion?</p>
+                            <a href="leaderboard.html" class="btn-1 button-1">View Leaderboard</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="copyright">
+                            <p>2025 © All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <div class="footer-social">
+                            <a href="#"><i class="ti-instagram"></i></a>
+                            <a href="#"><i class="ti-twitter"></i></a>
+                            <a href="#"><i class="ti-youtube"></i></a>
+                            <a href="#"><i class="ti-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
